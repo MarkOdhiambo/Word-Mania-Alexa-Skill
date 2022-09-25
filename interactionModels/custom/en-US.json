@@ -1,0 +1,398 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "word mania",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "what can I do",
+            "what is word mania about",
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayRiddleIntent",
+          "slots": [],
+          "samples": [
+            "riddles for me please",
+            "I want to play riddles",
+            "I feel like playing riddles today",
+            "riddles",
+            "riddle me",
+            "let me have a riddle",
+            "let\u0027s go with riddles",
+            "riddle me this",
+            "give me a riddle",
+            "tell me a riddle",
+            "play riddle"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetAnswerIntent",
+          "slots": [
+            {
+              "name": "answer",
+              "type": "answer"
+            }
+          ],
+          "samples": [
+            "It is {answer}",
+            "the answer is {answer}",
+            "{answer} ",
+            "If I remember it should be {answer}",
+            "I think it is {answer}"
+          ]
+        },
+        {
+          "name": "GiveUpIntent",
+          "slots": [],
+          "samples": [
+            "can\u0027t remember",
+            "give up",
+            "don\u0027t know"
+          ]
+        },
+        {
+          "name": "RepeatIntent",
+          "slots": [],
+          "samples": [
+            "repeat I don\u0027t understand",
+            "repeat riddle",
+            "ask the riddle again",
+            "ask the question again",
+            "repeat the trivia",
+            "repeat the riddle",
+            "repeat please",
+            "repeat the question"
+          ]
+        },
+        {
+          "name": "PlayTriviaIntent",
+          "slots": [],
+          "samples": [
+            "I want to play trivia today",
+            "trivia questions",
+            "let\u0027s go with trivia",
+            "trivia",
+            "trivia question",
+            "tell me a trivia",
+            "ask me a trivia question",
+            "play trivia"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "yes"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "no"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "egypt"
+              }
+            },
+            {
+              "name": {
+                "value": "table"
+              }
+            },
+            {
+              "name": {
+                "value": "canada"
+              }
+            },
+            {
+              "name": {
+                "value": "wellington"
+              }
+            },
+            {
+              "name": {
+                "value": "rice"
+              }
+            },
+            {
+              "name": {
+                "value": "camel"
+              }
+            },
+            {
+              "name": {
+                "value": "radiation"
+              }
+            },
+            {
+              "name": {
+                "value": "tendons"
+              }
+            },
+            {
+              "name": {
+                "value": "mercury"
+              }
+            },
+            {
+              "name": {
+                "value": "antimatter"
+              }
+            },
+            {
+              "name": {
+                "value": "hippopotamus"
+              }
+            },
+            {
+              "name": {
+                "value": "scotland"
+              }
+            },
+            {
+              "name": {
+                "value": "cuba"
+              }
+            },
+            {
+              "name": {
+                "value": "Vatican city"
+              }
+            },
+            {
+              "name": {
+                "value": "asia"
+              }
+            },
+            {
+              "name": {
+                "value": "netherlands"
+              }
+            },
+            {
+              "name": {
+                "value": "china"
+              }
+            },
+            {
+              "name": {
+                "value": "honey"
+              }
+            },
+            {
+              "name": {
+                "value": "tandoori"
+              }
+            },
+            {
+              "name": {
+                "value": "switzerland"
+              }
+            },
+            {
+              "name": {
+                "value": "pacific ocean"
+              }
+            },
+            {
+              "name": {
+                "value": "ukraine"
+              }
+            },
+            {
+              "name": {
+                "value": "saturn"
+              }
+            },
+            {
+              "name": {
+                "value": "venus"
+              }
+            },
+            {
+              "name": {
+                "value": "finland"
+              }
+            },
+            {
+              "name": {
+                "value": "hermes"
+              }
+            },
+            {
+              "name": {
+                "value": "apollo"
+              }
+            },
+            {
+              "name": {
+                "value": "spanish"
+              }
+            },
+            {
+              "name": {
+                "value": "hong kong"
+              }
+            },
+            {
+              "name": {
+                "value": "hinduism"
+              }
+            },
+            {
+              "name": {
+                "value": "horse"
+              }
+            },
+            {
+              "name": {
+                "value": "clock"
+              }
+            },
+            {
+              "name": {
+                "value": "staircase"
+              }
+            },
+            {
+              "name": {
+                "value": "secret"
+              }
+            },
+            {
+              "name": {
+                "value": "piano"
+              }
+            },
+            {
+              "name": {
+                "value": "chalkboard"
+              }
+            },
+            {
+              "name": {
+                "value": "hole"
+              }
+            },
+            {
+              "name": {
+                "value": "echo"
+              }
+            },
+            {
+              "name": {
+                "value": "barber"
+              }
+            },
+            {
+              "name": {
+                "value": "promise"
+              }
+            },
+            {
+              "name": {
+                "value": "candle"
+              }
+            },
+            {
+              "name": {
+                "value": "sponge"
+              }
+            },
+            {
+              "name": {
+                "value": "dictionary"
+              }
+            },
+            {
+              "name": {
+                "value": "light"
+              }
+            },
+            {
+              "name": {
+                "value": "wrong"
+              }
+            },
+            {
+              "name": {
+                "value": "kira"
+              }
+            },
+            {
+              "name": {
+                "value": "library"
+              }
+            },
+            {
+              "name": {
+                "value": "darkness"
+              }
+            },
+            {
+              "name": {
+                "value": "envelope"
+              }
+            },
+            {
+              "name": {
+                "value": "teapot"
+              }
+            },
+            {
+              "name": {
+                "value": "short"
+              }
+            },
+            {
+              "name": {
+                "value": "coin"
+              }
+            },
+            {
+              "name": {
+                "value": "silence"
+              }
+            },
+            {
+              "name": {
+                "value": "towel"
+              }
+            },
+            {
+              "name": {
+                "value": "traffic light "
+              }
+            }
+          ],
+          "name": "answer"
+        }
+      ]
+    }
+  },
+  "version": "17"
+}
